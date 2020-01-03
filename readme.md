@@ -15,8 +15,8 @@ $ brew install swiftgen
 [HomePage](https://github.com/Abedalkareem/LanguageManager-iOS)
 To chage using language on the fly, doesn't need to restart app
 
-Support `CocoaPods`, `Carthage`, `Swift Package Manager`
-But failed through `Carthage` and `Swift Package Manager` so just simplely copy the file into project.
+Support `CocoaPods`, `Carthage`, `Swift Package Manager`    
+But failed through `Carthage` and `Swift Package Manager` so just simply copy the file into project.
 
 ## Usage
 
@@ -42,7 +42,7 @@ swiftgen strings $SourcePath -n structured-swift4 -o $Output
 ```
 Make sure you replace `YourAppsMainTargetName`, `PathToLocalizableStringsFile`, `PathToOutputFileIncludingName` and `PathToTemplateFile`
 
-In this sample I want to use `LanguageManager-iOS`, so I have to use custom template, or you just simply use swiftgen template 
+In this sample I want to use `LanguageManager-iOS`, so I have to use custom template, or you just simply use swiftgen template  is fine.
 
 
 ### Step3 - Build
@@ -50,5 +50,5 @@ In this sample I want to use `LanguageManager-iOS`, so I have to use custom temp
 cmd + B 
 cmd + R
 ```
-It should build a swift file in `$Output` everytime project build  
+It should build a swift file in `$Output` every time project build  
 It may crash after build, maybe a bug but still work don't worry.
